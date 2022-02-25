@@ -1,0 +1,65 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+.Form-Title {
+  border-bottom: 5px snow;
+  color: aliceblue;
+  font-family: Cambria;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+.Form-Info {
+  color: gainsboro;
+  font-family: Cambria;
+  font-size: 20px;
+  text-align: center;
+}
+.Form-Field {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  color: #00111a;
+  font-family: Cambria;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+}
+.Form-Field:focus {
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.9);
+  border-color: aliceblue;
+  outline: none;
+}
+.Form-Button {
+  background: rgb(5, 30, 50);
+  border: none;
+  border-radius: 3px;
+  color: aliceblue;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  transition: background 0.2s linear;
+}
+.Form-Button:focus {
+  outline: none;
+}
+.Form-Button:hover {
+  background: #00111a;
+  cursor: pointer;
+}
+.Form-Group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.Form-Adrress {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.Form-Error {
+  color: #ffb3b3;
+  padding: 0.25rem 0;
+}
+
